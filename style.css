@@ -1,0 +1,147 @@
+body {
+  font-family: 'PT Serif', serif;
+  background-color: #FAF3F0;
+}
+
+.button_1{
+  Color:White;
+  text-decoration: none;
+}
+
+/* .bg-grey {
+
+} */
+
+/*contact*/
+
+.head_1 {
+  font-size: 60px;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.font {
+  font-size: x-large;
+  margin-bottom: 15px;
+}
+
+/* maps */
+.maps {
+  margin: 0px;
+  justify-content:left;
+  align-items: center;
+  text-overflow: clip;
+}
+
+
+/* footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(174, 213, 150);
+  padding: 10px 30px;
+  margin-top: 2rem;
+}
+
+
+.copy {
+  color: gray;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 1em;
+}
+
+.fa {
+  padding: 1rem;
+  height:40;
+  width: 40;
+  text-align: center;
+  text-decoration: none;
+  margin: 3px 5px;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  color: blue;
+}
+
+.fa-phone {
+  color: rgb(61, 151, 206);
+}
+
+.fa-instagram {
+  color: rgb(233, 65, 90);
+}
+
+
+/*hair-cut and style*/
+.h{
+  text-align: center;
+  font-family: 'PT Serif', serif;
+  margin: 5rem;
+  font-weight: bold;
+  color: #4682A9;
+  text-decoration: underline;
+}
+
+.format{
+  font-family: 'PT Serif', serif;
+  color:#322653;
+  font-weight: bold;
+  text-decoration: underline;
+
+}
+
+
+/*Gallery*/
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.contain {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
